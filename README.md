@@ -1,6 +1,8 @@
-# 🧮 Calculadora de IMC – Java Swing
+# 🧮 Calculadora de IMC – Java Swing <img src="https://skillicons.dev/icons?i=java" height="40" alt="java logo" />
 
-Uma calculadora de **IMC (Índice de Massa Corporal)** desenvolvida em **Java**, com interface gráfica feita usando **Swing**. O sistema permite ao usuário inserir altura e peso, calcular seu IMC e visualizar sua classificação de forma clara e intuitiva. Também é possível acessar uma tabela com todas as classificações do IMC.
+Uma calculadora de **IMC (Índice de Massa Corporal)** desenvolvida em **Java**, com interface gráfica feita usando **Swing**.  
+O sistema permite ao usuário inserir altura e peso, calcular seu IMC e visualizar sua classificação de forma clara e intuitiva.  
+Também é possível acessar uma tabela com todas as classificações do IMC.
 
 ---
 
@@ -34,19 +36,13 @@ Uma calculadora de **IMC (Índice de Massa Corporal)** desenvolvida em **Java**,
 
 ## 🧪 Classificações do IMC
 
-| Classificação     | IMC         |
-|------------------|-------------|
-| Magreza          | Abaixo de 18 |
-| Normal           | 18 a 24.9    |
-| Sobrepeso        | 25 a 29.9    |
-| Obesidade I      | 30 a 34.9    |
-| Obesidade II     | 35 a 39.9    |
-| Obesidade III    | Acima de 40  |
+| Classificação     | IMC           |
+|------------------|---------------|
+| Magreza          | Abaixo de 18  |
+| Normal           | 18 a 24.9     |
+| Sobrepeso        | 25 a 29.9     |
+| Obesidade I      | 30 a 34.9     |
+| Obesidade II     | 35 a 39.9     |
+| Obesidade III    | Acima de 40   |
 
 ---
-
-## 🚀 Como executar o projeto
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/imc-calculator-java.git

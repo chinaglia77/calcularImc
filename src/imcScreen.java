@@ -58,8 +58,8 @@ public class imcScreen extends JFrame implements ActionListener {
         inputAltura.addKeyListener(new KeyAdapter() {
                 @Override
                 public void keyPressed(KeyEvent e) {
-                    if (e.getKeyCode() == KeyEvent.VK_ENTER) {//tecla desejada 
-                        inputPeso.requestFocusInWindow();//input que eu quero ir :)
+                    if (e.getKeyCode() == KeyEvent.VK_ENTER) {
+                        inputPeso.requestFocusInWindow();
                     }
                 }
             });
@@ -90,7 +90,6 @@ public class imcScreen extends JFrame implements ActionListener {
         btnCalcular.setBounds(40, 260, 300, 40);
         btnCalcular.setCursor(new Cursor(Cursor.HAND_CURSOR));
 
-        // mudar a cor do botao quando o mouse entra no botao.
         btnCalcular.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseEntered(MouseEvent e) {
@@ -150,11 +149,9 @@ public class imcScreen extends JFrame implements ActionListener {
                     JOptionPane.showMessageDialog(null, "Por favor inserir todos os dados", frame.getTitle(),
                             JOptionPane.INFORMATION_MESSAGE);
                 } else {
-                    // Tenta converter os valores para float
                     float peso = Float.parseFloat(inputPeso.getText());
                     float altura = Float.parseFloat(inputAltura.getText());
 
-                    // Verifica se os valores são inteiros
                     if (altura == (int) altura && peso == (int) peso) {
                         JOptionPane.showMessageDialog(null, "Por favor, digitar valores decimais, como no exemplo",
                                 frame.getTitle(), JOptionPane.INFORMATION_MESSAGE);
@@ -165,8 +162,6 @@ public class imcScreen extends JFrame implements ActionListener {
                         labelImc.setText("Seu IMC: " + resultImc);
                         labelImc.setFont(new Font("Inter", Font.BOLD, 20));
                         labelImc.setBounds(40, 310, 230, 35);
-                        // labelImc.setOpaque(true); // Adicione esta linha para tornar o fundo visível
-                        // labelImc.setBackground(Color.BLACK);
 
                         String classificacao = "";
 

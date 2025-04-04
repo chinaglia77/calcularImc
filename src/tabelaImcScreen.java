@@ -11,12 +11,10 @@ public class tabelaImcScreen extends JFrame {
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(7, 3, 10, 5));
 
-        // Cabeçalho
         adicionarCelula(panel, "Classificação", new Color(8, 151, 157), true, Color.WHITE, SwingConstants.CENTER);
         adicionarCelula(panel, "IMC Mínimo", new Color(8, 151, 157), true, Color.WHITE, SwingConstants.CENTER);
         adicionarCelula(panel, "IMC Máximo", new Color(8, 151, 157), true, Color.WHITE, SwingConstants.CENTER);
 
-        // Dados
         adicionarCelula(panel, "Magreza", Color.WHITE, false, Color.BLACK, SwingConstants.CENTER);
         adicionarCelula(panel, "0", Color.WHITE, false, Color.BLACK, SwingConstants.CENTER);
         adicionarCelula(panel, "18.5", Color.WHITE, false, Color.BLACK, SwingConstants.CENTER);
